@@ -45,3 +45,13 @@ vue inspect --mode=production > webpack.prod.js
 
 // additionalProperties 表示是否可以有其他属性
 ```
+
+## plugins 配置
+
+> [webpack](https://webpack.js.org/)
+>
+> [webpack 中文](https://webpack.docschina.org/)
+>
+> [webpack compiler-hooks](https://webpack.docschina.org/api/compiler-hooks/#hooks)
+>
+> [webpack/tapable](https://github.com/webpack/tapable#tapable)
