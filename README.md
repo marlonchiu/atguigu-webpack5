@@ -25,3 +25,7 @@ yarn eject // or npm run eject
 vue inspect --mode=development > webpack.dev.js
 vue inspect --mode=production > webpack.prod.js
 ```
+
+## loader 处理
+
+* webpack 默认编译入口 `src/index.js`
