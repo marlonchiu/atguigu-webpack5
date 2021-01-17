@@ -6,12 +6,26 @@ module.exports = {
       {
         test: /\.js$/,
         // loader: path.resolve(__dirname, 'loaders', 'loader1')
+
         // 配置了 resolveLoader
         // loader: 'loader1'
+
+        // use: [
+        //   'loader1',
+        //   'loader2',
+        //   'loader3'
+        // ],
+
         use: [
           'loader1',
           'loader2',
-          'loader3'
+          {
+            loader: 'loader3',
+            options: {
+              name: 'jack',
+              age: 18
+            }
+          }
         ]
       }
     ]

@@ -29,3 +29,19 @@ vue inspect --mode=production > webpack.prod.js
 ## loader 处理
 
 * webpack 默认编译入口 `src/index.js`
+* loader读取校验配置
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "名称～"
+    }
+  },
+  "additionalProperties": false
+}
+
+// additionalProperties 表示是否可以有其他属性
+```
