@@ -10,3 +10,18 @@ create-react-app v3.4.1
 webpack v5.1.3
 nodejs v12.17.0
 ```
+
+## react-cli 配置解析
+
+```bash
+# 暴露配置(不可逆)
+yarn eject // or npm run eject
+```
+
+## vue-cli 配置解析
+
+```bash
+# 查看配置
+vue inspect --mode=development > webpack.dev.js
+vue inspect --mode=production > webpack.prod.js
+```
