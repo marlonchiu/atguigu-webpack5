@@ -52,6 +52,8 @@ vue inspect --mode=production > webpack.prod.js
 >
 > [webpack 中文](https://webpack.docschina.org/)
 >
+> [webpack/tapable](https://github.com/webpack/tapable#tapable)
+>
 > [webpack compiler-hooks](https://webpack.docschina.org/api/compiler-hooks/#hooks)
 >
-> [webpack/tapable](https://github.com/webpack/tapable#tapable)
+> [webpack compilation-hooks](https://webpack.docschina.org/api/compilation-hooks/)
